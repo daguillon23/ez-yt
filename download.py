@@ -49,7 +49,7 @@ def download(input):
     TYPE = "mp3"
     
     # YT-DLP VARS
-    # playlist_index: keeps track of number that downloaded file is in playlist
+    # playlist_index: keeps track of downloaded file's index in playlist
     # title: title of downloaded file
     # ext: downloaded file's extension
     args = ["yt-dlp","-t", f"{TYPE}", "-o", f"{path}/%(playlist_index)02d %(title)s.%(ext)s"]
