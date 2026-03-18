@@ -1,5 +1,5 @@
 # ez-yt
-Utilizes yt-dlp and ffmpeg to automate the download and file conversion of YouTube videos via Python script.
+Utilizes yt-dlp and ffmpeg to automate the download and file conversion of YouTube videos via Python script. Expects yt-dlp and ffmpeg executables to be in same directory as Python script.
 
 ## Tools Used
 * [yt-dlp](https://github.com/yt-dlp/yt-dlp)
